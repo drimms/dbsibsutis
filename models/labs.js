@@ -5,6 +5,10 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       allowNull: false
     },
+    course: {
+      type: DataTypes.STRING,
+      allowNull: false
+    }
   }, {});
 
   return Labs;
